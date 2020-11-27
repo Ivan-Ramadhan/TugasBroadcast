@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
     var intentFilter: IntentFilter? = null
 
 
+    val Migent
     private val ACTION_CUSTOM_BROADCAST: String = BuildConfig.APPLICATION_ID.toString() + ".ACTION_CUSTOM_BROADCAST"
 
     override fun onCreate(savedInstanceState: Bundle?) {

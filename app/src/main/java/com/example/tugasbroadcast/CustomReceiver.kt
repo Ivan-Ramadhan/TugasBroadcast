@@ -6,7 +6,7 @@ import android.content.Intent
 import android.widget.Toast
 
 class CustomReceiver : BroadcastReceiver() {
-
+    val ivan
     private val ACTION_CUSTOM_BROADCAST: String =
         BuildConfig.APPLICATION_ID.toString() + ".ACTION_CUSTOM_BROADCAST"
 
